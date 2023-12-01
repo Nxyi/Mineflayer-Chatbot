@@ -1,5 +1,5 @@
 import { WebSocket } from "ws";
-import { bot } from "./avas.js";
+import { bot } from "./index.js";
 const socket = new WebSocket('ws://localhost:8100');
 
 // Event listener for when the connection is opened
